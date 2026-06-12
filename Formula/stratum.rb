@@ -17,15 +17,15 @@ class Stratum < Formula
   desc "Local-LLM agentic TUI agent for laptop-class hardware"
   homepage "https://github.com/krishnendu/stratum"
   license any_of: ["Apache-2.0", "MIT"]
-  version "0.2.3"
+  version "0.2.4"
 
   conflicts_with "stratum-llama-cpp",
     because: "both install a `stratum` binary; pick the prebuilt or the LLM-enabled build"
 
   on_macos do
     on_arm do
-      url "https://github.com/krishnendu/stratum/releases/download/v0.2.3/stratum-v0.2.3-aarch64-apple-darwin.tar.gz"
-      sha256 "799b586ebb045baa1efce8211cbc388f7fcd5733dc3ec392db1806b17abc0184"
+      url "https://github.com/krishnendu/stratum/releases/download/v0.2.4/stratum-v0.2.4-aarch64-apple-darwin.tar.gz"
+      sha256 "5858048d7616ef9dd4223ee6b03f763f37ccb40bcc6579f8b66858f25b2c1a68"
     end
   end
 
