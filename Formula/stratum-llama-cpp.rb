@@ -23,10 +23,10 @@ class StratumLlamaCpp < Formula
   desc "Stratum with provider-llama-cpp feature (real local LLM inference)"
   homepage "https://github.com/krishnendu/stratum"
   license any_of: ["Apache-2.0", "MIT"]
-  version "0.2.6"  # MAINTAINER: bump on each release; sourced from the same tag as `stratum`
+  version "0.2.7"  # MAINTAINER: bump on each release; sourced from the same tag as `stratum`
 
-  url "https://github.com/krishnendu/stratum/archive/refs/tags/v0.2.6.tar.gz"
-  sha256 "78f91e4b4397729c98aafefcd52c1ce7cb2587776c3efbfb29641d76e7a58627"
+  url "https://github.com/krishnendu/stratum/archive/refs/tags/v0.2.7.tar.gz"
+  sha256 "1e4d1bfa44929510839c6cf69357e1f903029f43d295e449f1c8be3dbf549720"
 
   conflicts_with "stratum",
     because: "both install a `stratum` binary; pick the prebuilt or the LLM-enabled build"
